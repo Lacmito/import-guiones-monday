@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Import Guiones → Monday</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Import Guiones → Monday</h1>
+      <p class="subtitle">Subí un PDF de guion y creamos el ítem + subitems en tu board.</p>
+    </header>
+
+    <section class="config" id="configSection">
+      <h2>Configuración Monday</h2>
+      <p class="hint">API Token y Board ID se cargan desde el servidor.</p>
+      <label>
+        <span>Group ID (opcional)</span>
+        <input type="text" id="groupId" placeholder="Dejar vacío para usar el primero del board">
+      </label>
+      <label>
+        <span>Subitems Board ID (opcional)</span>
+        <input type="text" id="subitemsBoardId" placeholder="Si Loops/Obra en subitems no se rellenan, pegá acá el ID del board de subitems (está en la URL al abrir un subitem)">
+      </label>
+    </section>
+
+    <section class="upload">
+      <h2>PDF del guion</h2>
+      <input type="file" id="pdfFile" accept=".pdf">
+      <p class="hint">Nombre esperado: <code>Obra_NNN_(...)_(fecha) [STR].pdf</code> (ej. Ramo_114_(DUB)_(LAS)_(02112025) [STR].pdf)</p>
+    </section>
+
+    <section class="preview" id="previewSection" hidden>
+      <h2>Vista previa (extraído del PDF)</h2>
+      <div class="preview-grid">
+        <div class="preview-item">
+          <strong>Episodio (ítem)</strong>
+          <span id="previewEpisode">—</span>
+        </div>
+        <div class="preview-item">
+          <strong>Obra</strong>
+          <span id="previewObra">—</span>
+        </div>
+        <div class="preview-item full summary-box" id="previewSummary">
+          <!-- Resumen: personajes y loops vs guion -->
+        </div>
+        <div class="preview-item full">
+          <strong>Subitems (personaje + loops)</strong>
+          <pre id="previewSubitems">—</pre>
+        </div>
+      </div>
+      <div class="progress-wrap" id="progressWrap" hidden>
+        <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
+        <span class="progress-text" id="progressText">0%</span>
+      </div>
+      <button type="button" id="btnImport" class="btn btn-primary">Importar a Monday</button>
+      <p id="importStatus" class="status"></p>
+    </section>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

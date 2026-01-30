@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Paleta Caja de Ruidos: fondo azul-gris, header carbón, texto blanco, acento teal */
+:root {
+  --bg-main: #586B77;
+  --bg-card: #2D323A;
+  --bg-input: #252a32;
+  --text-primary: #ffffff;
+  --text-secondary: #b8c4cc;
+  --border: #3D4550;
+  --accent: #14B8A6;
+  --accent-hover: #0D9488;
+  --success: #5eead4;
+  --warn: #fbbf24;
+  --error: #f87171;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 1.5rem;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.25rem 0;
+  color: var(--text-primary);
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+section {
+  background: var(--bg-card);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--border);
+}
+
+section h2 {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+label:last-of-type {
+  margin-bottom: 0;
+}
+
+label span {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.35rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-input);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.8;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin: 0.75rem 0 0 0;
+}
+
+.hint code {
+  background: var(--border);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: var(--text-primary);
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.preview-item {
+  background: var(--bg-input);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.preview-item.full {
+  grid-column: 1 / -1;
+}
+
+.summary-box {
+  font-size: 0.9rem;
+}
+.summary-box strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.summary-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+.summary-row span:first-child {
+  min-width: 6rem;
+  color: var(--text-secondary);
+}
+.summary-row .ok {
+  color: var(--success);
+}
+.summary-row .warn {
+  color: var(--warn);
+}
+
+.progress-wrap {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.progress-wrap[hidden] {
+  display: none;
+}
+.progress-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--accent);
+  border-radius: 4px;
+  transition: width 0.2s ease;
+}
+.progress-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  min-width: 4rem;
+}
+
+.preview-item strong {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.35rem;
+}
+
+.preview-item span,
+.preview-item pre {
+  font-size: 0.95rem;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.preview-item pre {
+  max-height: 200px;
+  overflow-y: auto;
+  font-family: inherit;
+}
+
+.btn {
+  padding: 0.65rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.btn-primary:disabled {
+  background: var(--border);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.status {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  min-height: 1.5em;
+}
+
+.status.success {
+  color: var(--success);
+}
+
+.status.error {
+  color: var(--error);
+}
