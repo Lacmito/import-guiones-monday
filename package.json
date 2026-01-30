@@ -2,6 +2,7 @@
   "name": "import-guiones-monday",
   "version": "1.0.0",
   "description": "Sube un PDF de guion y crea ítem + subitems en Monday",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
