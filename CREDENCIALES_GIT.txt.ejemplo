@@ -1,0 +1,6 @@
+# Credenciales de GitHub para git push
+# Copiá este archivo a CREDENCIALES_GIT.txt y completá con tus datos.
+# CREDENCIALES_GIT.txt no se sube a GitHub (.gitignore).
+
+GITHUB_USER=tu_usuario_de_github
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

@@ -398,6 +398,15 @@ BTN_IMPORT.addEventListener('click', async () => {
     PROGRESS_BAR.style.width = pct + '%';
     PROGRESS_TEXT.textContent = message ? `${pct}% — ${message}` : pct + '%';
   };
+  const logEntry = {
+    filename: lastExtracted.filename || '',
+    episode: lastExtracted.episode || '',
+    obra: lastExtracted.obra || '',
+    personajes: lastExtracted.subitems.length,
+    loops: lastExtracted.loopsTotal ?? lastExtracted.subitems.reduce((s, i) => s + i.loops, 0),
+    success: false,
+    error: '',
+  };
   try {
     const { groupId, columns, subitemColumns } = await getBoardStructure(boardId);
     await createItemAndSubitems(
@@ -412,11 +421,19 @@ BTN_IMPORT.addEventListener('click', async () => {
     );
     IMPORT_STATUS.textContent = 'Listo: ítem y subitems creados en Monday.';
     IMPORT_STATUS.className = 'status success';
+    logEntry.success = true;
   } catch (err) {
     IMPORT_STATUS.textContent = 'Error: ' + err.message;
     IMPORT_STATUS.className = 'status error';
+    logEntry.error = err.message || 'Error desconocido';
   } finally {
     BTN_IMPORT.disabled = false;
     PROGRESS_WRAP.hidden = true;
+    // Enviar log al servidor (silencioso, no bloquea al usuario)
+    fetch('/api/log', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(logEntry),
+    }).catch(() => {});
   }
 });

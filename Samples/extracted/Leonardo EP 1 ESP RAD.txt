@@ -1,0 +1,852 @@
+--- Página 1 ---
+CLAVE DURACIÓN 30
+TÍTULO ORIGINAL LEONARDO PÁGINAS 27
+TÍTULO ESPAÑOL LEONARDO LOOPS 216
+TRADUCCIÓN DAMIÁN LÓPEZ PERSONAJES 19
+LEONARDO
+PERSONAJE COL ACTOR LLAMADO LOOPS
+INSERTO 01:06 COL 10 2
+PIERO 01:32 COL 5 15
+LEONARDO 02:24 COL 1 47
+VERROCCHIO 02:32 COL 6 13
+APRENDIZ 02:35 COL 11 2
+APRENDIZ 2 02:38 COL 12 2
+APRENDIZ 3 02:39 COL 16 1
+LORENZO 04:11 COL 4 32
+TERESA 04:13 COL 8 3
+PANADERO 04:32 COL 15 1
+LISA 04:32 COL 2 47
+MAQUIAVELO 04:58 COL 3 36
+VENDEDORA 06:49 COL 19 1
+NIÑO 06:58 COL 13 2
+NIÑO 2 07:05 COL 14 1
+CAPORASO 11:09 COL 9 2
+COSIMO 15:20 COL 7 4
+APRENDIZ 4 16:38 COL 17 1
+HOMBRE 22:04 COL 18 1
+AMBIENTE 3
+
+--- Página 2 ---
+- 1 -
+TRADUCCIÓN DAMIÁN LÓPEZ
+CLAVE
+TÍTULO ORIGINAL LEONARDO
+TÍTULO ESPAÑOL LEONARDO
+DURACIÓN 30
+01:06  INSERTO
+LEONARDO.
+01:10  AMBIENTE
+(LUMINARI REZANDO) Sanguinem, vitam, animam tibi, domine, damus. Ordini
+Luminarum victoria; moriatur dux.
+01:13  INSERTO
+FLORENCIA – 1469.
+01:32  PIERO
+(SUSURRA)
+02:12  INSERTO
+LEONARDO.
+02:24  LEONARDO
+¡Perdón!
+02:32  VERROCCHIO
+¡Arriba, arriba, dormilones! / ¿No sienten el sol en sus ojos?
+02:35  APRENDIZ
+Ya voy, maestro.
+02:38  APRENDIZ 2
+Sí, maestro.
+2
+1
+
+--- Página 3 ---
+- 2 -
+02:39  APRENDIZ 3
+Enseguida, maestro.
+02:41  VERROCCHIO
+¿Y mi café? / ¡Cosimo! / ¡Tráeme café!
+02:52  LEONARDO
+(REAC)
+02:58  VERROCCHIO
+Vean la cualidad reflectante de las escamas del pez. / Y vean cómo ese toque de
+dorado en el pelo de Rafael revela su condición de ángel.
+03:08  APRENDIZ
+Es hermoso, maestro.
+03:08  APRENDIZ 2
+Bellissimo, maestro.
+03:12  VERROCCHIO
+¿Ven la libertad de movimiento en las poses? / Los brazos / expresan movimiento.
+¿Esto se llama…?
+03:18  APRENDIZ
+Contrapposto, maestro.
+03:20  VERROCCHIO
+Sí. Contrapposto.
+03:27  LEONARDO
+(REACS)
+03:33  VERROCCHIO
+Y tu perro, Leonardo… / no está mal, para ser sincero.
+5
+2
+3
+4
+
+--- Página 4 ---
+- 3 -
+03:38  LEONARDO
+Gracias, maestro.
+03:39  VERROCCHIO
+¿Ya vieron cómo él usó tonos oscuros como base y después siguió con los más claros?
+/ ¡Esa es la importancia de enfocarse! / El premio por tu trabajo es tomarte del día libre.
+03:49  LEONARDO
+Grazie, maestro.
+03:50  VERROCCHIO
+Espera un poco. / Tienes todo el día para estar inventando esos aparatos extraños. /
+Primero vamos a desayunar como personas civilizadas.
+04:08  PIERO
+Ya basta de jugar, Lorenzo.
+04:11  LORENZO
+¿Me puedo retirar?
+04:13  TERESA
+¿Antes de la tórtola asada? / Yo diría que no. / No somos campesinos. / Nosotros
+comemos seis platos en el desayuno.
+04:20  LORENZO
+(RESOPLA)
+04:21  PIERO
+Usa el tenedor correcto.
+04:32  PANADERO
+¡Fuera!
+04:32  LISA
+(REAC) / ¡Bueno, ya va! / ¡No hacía falta mojarme! (REAC)
+9
+5
+6
+7
+8
+
+--- Página 5 ---
+- 4 -
+04:58  MAQUIAVELO
+(REAC) / A levantarse. Giuseppe, arriba, ahora. Rápido. / Tú también, arriba, Marco. /
+Hora de trabajar.
+05:05  AMBIENTE
+(NIÑOS REAC AL DESPERTARSE EN TODA LA ESCENA)
+05:17  MAQUIAVELO
+Tráiganme algo de comer. / Pelones. / Quiero comer unos sabrosos y jugosos /
+pelones. / Dos. / Que estén maduros. / Ahora. ¿Qué esperan?
+05:39  LORENZO
+¿Me puedo retirar?
+05:41  TERESA
+Todavía no. / ¿Te olvidaste de tu lección de clavecín?
+05:44  PIERO
+¿Por estás tan apurado esta mañana? ¿Mm? / ¿Qué travesura planeas?
+05:49  LORENZO
+(RISA) Ninguna, papá. / Le prometí a la hermana de mi amigo Alfonso, Luisa, enseñarle
+a bailar. / Por cortesía.
+05:55  PIERO
+¿Ah, sí? / (REAC) / Qué gesto tan caballeroso.
+05:59  TERESA
+(REAC)
+06:00  LORENZO
+(REAC)
+06:28  LEONARDO
+(REAC)
+13
+9
+10
+11
+12
+
+--- Página 6 ---
+- 5 -
+06:49  VENDEDORA
+¡Ey! / ¡Ven acá, ladrón! / ¡Ay, no, ¿otra vez ustedes?!
+06:58  NIÑO
+¡Corre!
+07:05  NIÑO
+(REAC)
+07:05  NIÑO 2
+(REAC)
+07:08  NIÑO
+¡Ey!
+07:12  MAQUIAVELO
+¿Ladrón? / ¿Y cómo era este usurpador de pelones ajenos, este supuesto ratero?
+07:23  LEONARDO
+(REAC) / (REAC) / ¡Qué perfecta terminación! / Ya verás lo que haré, Mac. / El
+velocirotor será fantástico.
+07:35  MAQUIAVELO
+¿Velocirotor?
+07:36  LEONARDO
+¿Qué nombre esperabas?
+07:37  MAQUIAVELO
+Uno mejor.
+07:37  LEONARDO
+Oh, ya verás cómo volará. / Es muy eficiente. Liviano, pero fuerte. Olmo. / Y su forma
+triangular distribuye el peso de manera… (REAC) / Eh, ¿qué hace? / Qué amable.
+16
+13
+14
+15
+
+--- Página 7 ---
+- 6 -
+07:49  MAQUIAVELO
+(RISA) El viejo truco, revisa tus bolsillos.
+07:53  LEONARDO
+No me… / falta nada. Eres muy desconfiado.
+07:56  MAQUIAVELO
+¡Ey! ¡Tú! / ¿De dónde sacaste eso?
+07:59  LISA
+¿Qué te interesa, eres policía de frutas?
+08:01  MAQUIAVELO
+Me robaron mis pelones, y me informaron que el ladrón tenía un gorro como el tuyo.
+08:04  LISA
+¡Déjame! / No robé tus pelones, pero si están tan desesperado, toma.
+08:09  MAQUIAVELO
+Ese chico tiene muy mal humor.
+08:11  LEONARDO
+(REAC) ¿Qué otra cosa esperas si lo acusas de robar? (REAC)
+08:14  MAQUIAVELO
+(RISA)
+08:16  LEONARDO
+¡Lorenzo!
+08:18  LORENZO
+No van a creer la mañana que tuve. ¡Creí que jamás escaparía! / ¿Y? / ¿Dónde está? /
+¿Es cierto que lo terminaste? / ¿De verdad?
+08:25  LEONARDO
+¡Eso vamos a averiguar! (REAC)
+20
+16
+17
+18
+19
+
+--- Página 8 ---
+- 7 -
+08:26  LORENZO
+(REAC)
+08:36  PIERO
+Debe tenerlo en el taller. / Encuentra otra forma.
+09:08  LEONARDO
+¡Wooo! / ¡Wooo! / Ahí voy. / ¡¡Wooooo!!
+09:14  LORENZO
+(RISA)
+09:18  LEONARDO
+(RISA)
+09:22  LORENZO
+¡Wooo!
+09:23  LEONARDO
+(RISA) (REAC)
+09:23  MAQUIAVELO
+(RISA)
+09:29  LISA
+¿No ves lo que haces?
+09:31  LEONARDO
+(REAC) Scusi.
+09:33  LISA
+¿Qué se supone que es esa cosa?
+09:36  LEONARDO
+Un velocirotor.22
+20
+21
+
+--- Página 9 ---
+- 8 -
+09:37  LISA
+¿Un qué? / Ey, yo los conozco. / ¿Primero me acusan de robar y ahora quieren
+matarme?
+09:48  LEONARDO
+¡Tiene vida! / ¡Habla, respira! / ¡Fantástico! / Capturaste su espíritu.
+09:56  MAQUIAVELO
+Parece amargada. ¿Tu novia?
+09:59  LISA
+Mi hermana. Y es muy alegre, por cierto.
+10:04  MAQUIAVELO
+Usa tu gorro. / Es más práctico.
+10:06  LISA
+¿En serio te gustó?
+10:08  LEONARDO
+Es muy bueno.
+10:09  MAQUIAVELO
+Escúchalo. Es un aprendiz de artista.
+10:11  LISA
+Es justo lo que quiero, para eso vine a Florencia. / Pero necesito una carta de
+recomendación.
+10:17  MAQUIAVELO
+Y es inventor.
+10:19  LISA
+Jamás vi algo igual. / ¿Cómo funciona?25
+22
+23
+24
+
+--- Página 10 ---
+- 9 -
+10:23  LEONARDO
+Se debe a la distribución de la masa / en la rueda delantera, y / a las fuerzas que
+actúan sobre ella al dar vueltas.
+10:30  LISA
+Cuando se me venía encima creí que era un monstruo o algo así.
+10:33  LEONARDO
+(REAC)
+10:36  LISA
+Es hermoso. / Bellissimo.
+10:39  LEONARDO
+Creo que tienes un fan.
+10:41  LISA
+No es verdad, sólo creo que es muy ingenioso.
+10:44  LEONARDO
+Ven a probarlo.
+10:45  LISA
+¡¿En serio?!
+10:46  LORENZO
+¡No, es mi turno!
+10:47  LEONARDO
+Entonces, ven. ¡Dale, Lorenzo! (REAC) ¡Ciao!
+10:49  MAQUIAVELO
+(RISA) / Uh.
+10:51  LISA
+¡Ciao!
+28
+25
+26
+27
+
+--- Página 11 ---
+- 10 -
+10:53  MAQUIAVELO
+¡Corres como una chica, Lorenzo!
+10:58  LISA
+(REACS)
+11:09  CAPORASO
+(REAC)
+11:15  LISA
+¿Qué quieres? / ¿Adónde me llevas? / ¡Yo no hice nada!
+11:23  AMBIENTE
+(LUMINARI REZANDO) Victoria. Moriatur dux.
+11:32  LISA
+(REAC) ¿Qué quieren? / Yo no hice nada. / ¡No soy nadie!
+11:42  PIERO
+Yo no diría eso. Me dijeron que tienes mucho talento.
+11:46  LISA
+¿Qué?
+11:48  PIERO
+¿Te gustaría ser aprendiz de artista?
+11:52  LISA
+Me encantaría, / pero es imposible.
+11:55  PIERO
+Esto es Florencia. / Todo es posible.
+11:59  LISA
+Estuve en los talleres. / Ni siquiera miran mis obras sin una carta de recomendación.
+31
+28
+29
+30
+
+--- Página 12 ---
+- 11 -
+12:09  PIERO
+De la Academia de Arte de Roma. / La llevarás al taller de Verrocchio. / Te dejará
+entrar.
+12:20  LISA
+Grazie.
+12:21  PIERO
+Eh, no tan rápido. / En el taller de Verrocchio hay un aprendiz, un tal Leonardo da Vinci.
+/ Queremos su libro de notas.
+12:32  LISA
+Yo no robo.
+12:33  PIERO
+Lo dejarás en la iglesia de la Piazza di Rivoli / antes del anochecer.
+14:19  VERROCCHIO
+¿Quién eres y qué quieres?
+14:20  LISA
+Ah, soy… / Tomaso.
+14:25  VERROCCHIO
+Impresionante. / En la Academia de Arte aprendí yo. (REAC) / Pero eres otra boca que
+alimentar / y no tengo recursos para…
+14:32  LEONARDO
+Yo vi lo que hace, / maestro. / Es fantástico.
+14:39  VERROCCHIO
+Sí, eso sería lo lógico. Pero tengo que verlo para creerlo. Va bene, tienes tiempo hasta
+que Cosimo me prepare un té / para impresionarme. ¡Cosimo! / (SUSPIRA)
+36
+31
+32
+33
+34
+35
+
+--- Página 13 ---
+- 12 -
+15:01  LEONARDO
+Haz lo tuyo.
+15:17  VERROCCHIO
+¿Por qué tardas? / Prepárame un té, ¡y pronto!
+15:20  COSIMO
+Sí, maestro.
+15:29  LISA
+(REAC)
+15:45  COSIMO
+Maestro.
+15:48  VERROCCHIO
+(REAC) / Nada mal. / Le falta técnica, / pero es expresivo. / Capturaste la esencia de la
+persona. ¿Tu novia?
+15:59  LISA
+Mi hermana.
+16:00  VERROCCHIO
+Ah, sí, ahora veo el parecido. / Allora, Tomaso Gherardini, te voy a aceptar por un
+periodo de prueba. / Harás todo lo que yo te pida sin chistar, y a cambio te daré
+albergue y comida. ¿Está claro?
+16:13  LISA
+Sí.
+16:13  VERROCCHIO
+“Sí, / maestro.”
+16:16  LISA
+Sí, maestro.
+39
+36
+37
+38
+
+--- Página 14 ---
+- 13 -
+16:17  VERROCCHIO
+Ahora me tomaré una siesta. Empezarás mañana. Leonardo te mostrará el lugar.
+16:22  LISA
+¿Leonardo?
+16:23  LEONARDO
+Da Vinci. / ¡Vamos! / ¡Vieni! / Hacemos los pinceles suaves con cola de comadreja, y
+los duros con pelo de chancho.
+16:32  LISA
+¿Quiénes los hacen?
+16:33  LEONARDO
+Los aprendices. Pegamento. / Hecho de piel de conejo. Es un trabajo aburrido.
+16:38  APRENDIZ 4
+Sí.
+16:38  LEONARDO
+Mezclar pigmentos para pinturas es más divertido, pero… (SOPLA) / difícil, y muy, /
+muy caro. Se pondrá / furioso si te equivocas. / Esta belleza / es lapislázuli. / Cuesta
+una fortuna, pero el azul que crea es… / (REAC) fantástico. / Mira. / Bichos aplastados.
+/ Ah. / Un violeta hermoso. / Aprendemos / dibujo, / carpintería, química, metalurgia,
+trabajos en yeso… / ¡Ey! / Tranquilo. / Yo debería preocuparme, tú eres muy bueno. /
+Cosimo, prepárale una cama. / Hasta luego.
+17:33  COSIMO
+Vieni. / Vamos.
+17:38  LISA
+¿Eres aprendiz?
+44
+39
+40
+41
+42
+43
+
+--- Página 15 ---
+- 14 -
+17:39  COSIMO
+No. / Sirviente. / No sé dibujar.
+17:50  COSIMO
+(REAC) / Dormirás al lado de Leonardo.
+17:59  PIERO
+Queremos su libro de notas.
+18:03  LISA
+(REAC) ¿Falta mucho para cenar?
+18:05  COSIMO
+(REAC) Te puedo hacer unos espaguetis.
+18:09  LISA
+Grazie. / Me encantaría.
+18:46  LISA
+(REAC)
+18:59  MAQUIAVELO
+No sabes nada sobre él, / salvo que es un pobre ladrón de pelones.
+19:03  LEONARDO
+Tampoco sé nada sobre ti, salvo que eres de Milán.
+19:06  LORENZO
+¿Milán? ¿No eras de Roma?
+19:07  MAQUIAVELO
+Es bueno crear un aura de misterio, / dejarlos con ganas de más.
+19:25  MAQUIAVELO
+Ciao.47
+44
+45
+46
+
+--- Página 16 ---
+- 15 -
+19:26  LISA
+(REAC) / ¿Asustar a los demás te provoca placer?
+19:30  MAQUIAVELO
+No puedo evitarlo, es uno de mis talentos. / Soy Maquiavelo. / Mac, para todos. / Te
+felicito.
+19:36  LISA
+¿Por qué?
+19:37  MAQUIAVELO
+Por conseguir una recomendación tan rápido. Se ve que tienes talento.
+19:41  LISA
+Me llegó de Roma, tuve suerte.
+19:43  MAQUIAVELO
+Roma, ¿eh?
+19:44  LISA
+Sí.
+19:45  MAQUIAVELO
+No tienes acento.
+19:46  LISA
+No nací ahí.
+19:47  MAQUIAVELO
+¿Y dónde?
+19:48  LISA
+Métete en tus cosas.
+19:51  MAQUIAVELO
+Eres un fugitivo, ¿no?
+49
+47
+48
+
+--- Página 17 ---
+- 16 -
+19:53  LISA
+¡No! / ¡¿Qué dices?! ¡Claro que no! / Mis padres querían que fuera un artista, me
+mandaron a vivir con mi tía.
+20:00  MAQUIAVELO
+Y dime, ¿dónde vive tu tía?
+20:02  LISA
+En Via de Pandolfini, por supuesto.
+20:03  MAQUIAVELO
+¡Oh, lindo lugar, debe ser rica!
+20:05  LISA
+Así es.
+20:06  MAQUIAVELO
+Dile que te compre ropa decente.
+20:09  LISA
+Eres muy maleducado y no tengo tiempo de / quedarme para que me insulten. / Voy a
+buscar el resto de mis cosas.
+20:21  MAQUIAVELO
+Muy mentiroso, sinónimo de Tomaso.
+20:28  LEONARDO
+(DE FONDO) Cuando te subas, trata de mantener…
+20:30  MAQUIAVELO
+¡Vieni! / ¡Presto!
+20:31  LORENZO
+¿Qué? ¿Qué pasa?
+53
+49
+50
+51
+52
+
+--- Página 18 ---
+- 17 -
+20:32  LEONARDO
+¿Adónde? / Suelta.
+20:33  MAQUIAVELO
+Se va a lo de su tía. / En la Via de Pandolfini.
+20:36  LORENZO
+¿Y?
+20:36  LEONARDO
+Es en la otra dirección.
+20:38  MAQUIAVELO
+Exacto. Ese chico es más mentiroso que yo. Y vamos a averiguar qué trama.
+20:41  LORENZO
+¡Uhh, un misterio! ¡Qué emocionante!
+20:54  LEONARDO
+Está esperando a alguien.
+20:55  MAQUIAVELO
+¿Qué tiene ahí?
+20:57  LEONARDO
+¡Mi libro de notas!
+20:58  MAQUIAVELO
+¡Te lo dije! ¡Es un ladrón!
+21:01  LEONARDO
+Me debe una explicación. // ¡Tomaso!
+21:11  LISA
+(REAC)
+55
+53
+54
+
+--- Página 19 ---
+- 18 -
+21:12  LEONARDO
+¿Qué haces con mi libro?
+21:14  LISA
+Oh, ¿es tuyo? / Supongo que me confundí. / Lo tomé prestado, lo iba a devolver.
+21:36  CAPORASO
+¡Ey!
+21:47  LEONARDO
+¡Cuidado!
+21:57  LEONARDO
+¡Scusi!
+22:04  HOMBRE
+(REAC)
+22:14  LEONARDO
+(REACS HASTA DIÁLOGO)
+22:38  MAQUIAVELO
+¿Estás bien?
+22:39  LEONARDO
+Sí, estoy bien.
+22:40  LISA
+¿Y el libro?
+22:41  LEONARDO
+Lo tienen.
+22:41  MAQUIAVELO
+(REAC)
+57
+55
+56
+
+--- Página 20 ---
+- 19 -
+22:44  LORENZO
+Estás en problemas. / Le voy a decir mi padre, / su excelencia Piero de Medici. /
+Conoce al juez en persona. / Te van a juzgar y a ponerte preso por ser un despreciable
+ladrón.
+22:54  LISA
+Está bien, no me importa. / No tenía opción.
+22:58  LORENZO
+Sí, claro.
+22:58  LEONARDO
+¿Por qué?
+23:00  LISA
+El hombre calvo del caballo / me secuestró.
+23:03  LORENZO
+¿Qué? ¡Ridículo! No vas a creer sus mentiras, ¿no?
+23:03  LEONARDO
+¡¿Qué?!
+23:06  LISA
+Me llevó a las catacumbas. / Era como una… / cueva secreta. / Y había hombres
+rezando, como… / una sociedad secreta o algo así.
+23:14  MAQUIAVELO
+¿Y la carta de recomendación?
+23:16  LISA
+¡Ellos me la dieron! / La verdad es esa. / ¡Se los juro! / No quise hacerlo.
+23:25  MAQUIAVELO
+Puede ser, nadie inventaría algo tan ridículo.
+61
+57
+58
+59
+60
+
+--- Página 21 ---
+- 20 -
+23:28  LORENZO
+¡¿Qué?! ¡No me digas que le crees!
+23:29  LEONARDO
+No, espera, espera. ¿Puedes volver a encontrar ese lugar al que te llevaron?
+23:32  LISA
+(REAC) Son personas peligrosas.
+23:34  LEONARDO
+Se llevaron mi libro. / Mis trabajos, / diseños, cálculos… (REAC) / No puedo perderlo. /
+No puedo.
+23:50  LEONARDO
+(REAC)
+24:02  LORENZO
+(REAC) / ¡¿Qué fue eso?!
+24:07  LEONARDO
+(REAC)
+24:09  LISA
+Perdón. / Estoy arrepentido.
+24:11  MAQUIAVELO
+Un poco tarde. / ¿Y? ¿Hacia dónde?
+24:18  LISA
+No sé, todo se ve igual.
+24:20  MAQUIAVELO
+O no quieres decirnos.
+24:22  LISA
+¡Que no sé!
+64
+61
+62
+63
+
+--- Página 22 ---
+- 21 -
+24:23  LEONARDO
+Mentiste y robaste. / No tenemos por qué creerte.
+24:25  LORENZO
+Bien dicho.
+24:26  LISA
+¡No fue mi culpa, no quise hacerlo, yo… sólo quiero ser artista!
+24:30  LEONARDO
+No hacía falta engañar para lograrlo.
+24:32  LISA
+No es tan simple.
+24:33  LEONARDO
+Sí es simple, cuando se tiene talento / e integridad.
+24:36  LISA
+Sí, si eres un varón.
+24:38  LEONARDO
+¿Qué?
+24:42  MAQUIAVELO
+¡Claro!
+24:43  LEONARDO
+¡No!
+24:43  MAQUIAVELO
+¡¿Cómo no lo vi?!
+24:44  LORENZO
+¿Qué?67
+64
+65
+66
+
+--- Página 23 ---
+- 22 -
+24:45  LISA
+(REAC)
+24:45  MAQUIAVELO
+¡No puedo ser tan ingenuo!
+24:46  LORENZO
+¡¿Qué?!
+24:46  MAQUIAVELO
+¡El retrato que dibujó no era de su hermana!
+24:49  LEONARDO
+Era un autorretrato.
+24:50  LISA
+(REAC)
+24:50  LORENZO
+¡¿Qué?!
+24:51  LISA
+No sé de qué hablas. ¿Un autorretrato? Es… / ridículo. / Era mi hermana, ¿sí?
+25:03  LORENZO
+(REAC)
+25:11  LISA
+Una chica no puede pintar para ganarse la vida. ¿Es justo?
+25:14  LEONARDO
+No.
+25:15  LISA
+Según mis papás es imposible. / Una utopía, una fantasía. / Hasta quisieron obligarme
+a casarme para “entrar en razón.”
+69
+67
+68
+
+--- Página 24 ---
+- 23 -
+25:22  MAQUIAVELO
+¿Con quién?
+25:23  LISA
+No me quedé para averiguarlo. / ¿Van a denunciarme?
+25:29  LEONARDO
+Vengan.
+25:33  LORENZO
+¡Es una ladrona! / No podemos confiar en ella.
+25:36  LEONARDO
+No seas así.
+25:36  LORENZO
+Y es ilegal. Verrocchio estará en problemas si se enteran.
+25:39  MAQUIAVELO
+Eso es verdad.
+25:40  LORENZO
+Y es ridículo. / ¿Una chica artista?
+25:42  LEONARDO
+¿Por qué es tan ridículo? ¡Tiene talento!
+25:45  LORENZO
+Es así. / Que le de otro uso a ese talento artístico. / ¡Bordado!
+25:49  LEONARDO
+(REAC)
+25:49  MAQUIAVELO
+Rígido y obtuso, sinónimo de Lorenzo.
+72
+69
+70
+71
+
+--- Página 25 ---
+- 24 -
+25:51  LORENZO
+Muy gracioso.
+25:51  LEONARDO
+¿Qué dices, Mac?
+25:53  MAQUIAVELO
+Que todo será mucho más interesante con ella.
+25:55  LEONARDO
+Sí, yo también. ¿Lorenzo?
+25:57  LORENZO
+Ahh, bueno. / Pero se arrepentirán.
+26:02  LEONARDO
+¿Cuál es tu nombre? El verdadero.
+26:05  LISA
+Lisa.
+26:06  LEONARDO
+Lisa. / Okey. / Guardaremos tu secreto.
+26:15  LISA
+Ohh, grazie, ¡grazie! (REAC)
+26:18  LEONARDO
+Oficialmente / eres del grupo.
+26:21  LISA
+(REAC) Grazie.
+26:22  LORENZO
+Sí. ¿Ahora puedo usar el velocirotor?
+74
+72
+73
+
+--- Página 26 ---
+- 25 -
+26:28  LISA
+Tendrías que cambiarle el nombre.
+26:30  MAQUIAVELO
+Lo mismo le dije yo.
+26:32  LISA
+“Bicicleta.”
+26:33  MAQUIAVELO
+¿Bicicleta?
+26:33  LEONARDO
+¿Qué?
+26:34  LISA
+¡Llámalo “bicicleta”!
+26:35  LEONARDO
+¡¿Qué?!
+26:35  MAQUIAVELO
+No está mal.
+26:36  LORENZO
+(REACS)
+26:37  LISA
+(RISA)
+26:38  LEONARDO
+¡Bicicleta!
+26:39  MAQUIAVELO
+¡Sí!
+75
+74
+
+--- Página 27 ---
+- 26 -
+26:39  LEONARDO
+¡Ey, Lorenzo! / ¡Ten cuidado con mi bicicleta! / (RISA)
+26:43  MAQUIAVELO
+(RISA)
+26:45  LISA
+¿Lo vieron?
+26:47  LORENZO
+¡Cállense!
+26:58  PIERO
+Entri. / Ah. / ¿Qué pasa, Lorenzo?
+27:02  LORENZO
+Ah… / Esto va a sonar raro, / papá.
+27:07  PIERO
+(REAC) Qué intriga. / Tienes toda mi atención.
+27:11  LORENZO
+¿Oíste hablar de / una / sociedad secreta siniestra / en las catacumbas? / Hombres con
+capucha rezando… / y esas cosas.
+27:22  PIERO
+(RISA) / ¿Por qué preguntas?
+27:24  LORENZO
+Son rumores que oí.
+27:26  PIERO
+(REAC) No son más que supersticiones diseminadas por los campesinos. / No creerás
+esas cosas.
+79
+75
+76
+77
+78
+
+--- Página 28 ---
+- 27 -
+27:33  LORENZO
+No.
+27:34  PIERO
+No. / Pero recuerda: / esto es Florencia. / Aquí todo es posible.
+27:44  LORENZO
+(INAUDIBLE) Ya me voy.
+27:55  PIERO
+(REAC)
+  FIN
+TRADUCCIÓN: DAMIÁN LÓPEZ
+79
