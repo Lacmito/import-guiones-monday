@@ -434,6 +434,9 @@ BTN_IMPORT.addEventListener('click', async () => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(logEntry),
-    }).catch(() => {});
+    })
+      .then((r) => r.json())
+      .then((r) => console.log('[LOG]', r.ok ? 'Registrado' : 'Error:', r))
+      .catch((e) => console.warn('[LOG] No se pudo enviar:', e));
   }
 });

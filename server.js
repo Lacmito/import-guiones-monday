@@ -23,6 +23,13 @@ const MIME = {
 function serveStatic(req, res) {
   let file = req.url === '/' ? '/index.html' : req.url;
   file = path.join(__dirname, file.replace(/\?.*$/, ''));
+  // No servir archivos sensibles
+  const basename = path.basename(file);
+  if (basename === 'import-log.json' || basename === 'CREDENCIALES_GIT.txt' || basename === '.env') {
+    res.writeHead(404);
+    res.end('Not found');
+    return;
+  }
   const ext = path.extname(file);
   const type = MIME[ext] || 'application/octet-stream';
   fs.readFile(file, (err, data) => {
@@ -36,36 +43,45 @@ function serveStatic(req, res) {
   });
 }
 
-// --- Log: lectura/escritura ---
+// --- Log: almacén en memoria + persistencia a archivo como respaldo ---
 
-function readLog() {
-  try {
-    const data = fs.readFileSync(LOG_FILE, 'utf8');
-    return JSON.parse(data);
-  } catch {
-    return [];
-  }
+let memoryLog = [];
+
+// Intentar cargar log previo del archivo (si existe)
+try {
+  const data = fs.readFileSync(LOG_FILE, 'utf8');
+  memoryLog = JSON.parse(data);
+  console.log(`[LOG] Cargados ${memoryLog.length} registros desde archivo.`);
+} catch {
+  console.log('[LOG] Sin archivo previo, empezando log vacío.');
 }
 
 function appendLog(entry) {
-  const log = readLog();
-  log.push(entry);
-  fs.writeFileSync(LOG_FILE, JSON.stringify(log, null, 2), 'utf8');
+  memoryLog.push(entry);
+  console.log(`[LOG] +1 registro (total: ${memoryLog.length}) — ${entry.filename} — ${entry.success ? 'OK' : 'ERROR'}`);
+  // Persistir a archivo como respaldo (best effort)
+  try {
+    fs.writeFileSync(LOG_FILE, JSON.stringify(memoryLog, null, 2), 'utf8');
+  } catch (err) {
+    console.log('[LOG] No se pudo escribir archivo:', err.message);
+  }
 }
 
 function handleLogPost(req, res) {
   let body = '';
   req.on('data', (chunk) => { body += chunk; });
   req.on('end', () => {
+    console.log('[LOG] POST /api/log recibido, body length:', body.length);
     try {
       const entry = JSON.parse(body);
       entry.timestamp = new Date().toISOString();
       appendLog(entry);
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ ok: true }));
-    } catch {
+    } catch (err) {
+      console.log('[LOG] Error procesando POST /api/log:', err.message);
       res.writeHead(400, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'Invalid JSON' }));
+      res.end(JSON.stringify({ error: err.message || 'Invalid JSON' }));
     }
   });
 }
@@ -78,7 +94,7 @@ function handleLogGet(req, res) {
     res.end('Acceso denegado. Usá ?key=TU_CLAVE_ADMIN');
     return;
   }
-  const log = readLog();
+  const log = memoryLog;
   const format = url.searchParams.get('format');
   if (format === 'json') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
@@ -111,6 +127,7 @@ function handleLogGet(req, res) {
   tr.ok td:nth-child(7){color:#5eead4}
   tr.fail td:nth-child(7){color:#f87171}
   .count{color:#b8c4cc;font-size:.9rem;margin-bottom:1rem}
+  .note{color:#666;font-size:.8rem;margin-top:1rem}
 </style></head><body>
   <h1>Import Guiones — Log</h1>
   <p class="count">${log.length} registro(s)</p>
@@ -118,6 +135,7 @@ function handleLogGet(req, res) {
     <th>Fecha/Hora</th><th>Archivo</th><th>Episodio</th><th>Obra</th>
     <th>Personajes</th><th>Loops</th><th>Resultado</th><th>Error</th>
   </tr></thead><tbody>${rows}</tbody></table>
+  <p class="note">Nota: el log se reinicia cuando el servidor se redespliega o se despierta del modo sleep.</p>
 </body></html>`;
   res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
   res.end(html);
