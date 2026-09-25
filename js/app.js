@@ -165,7 +165,12 @@ async function mondayFetch(query, variables = {}) {
   });
   const json = await res.json();
   if (json.errors && json.errors.length) {
-    throw new Error(json.errors.map((e) => e.message).join('; '));
+    // Según la versión de la API, Monday devuelve los errores como objeto o como texto plano. Hacer
+    // `e.message` sobre un texto da undefined, que es lo que se mostraba en pantalla en lugar del
+    // motivo. Se aceptan las dos formas por si alguna respuesta llega sin la versión fijada.
+    throw new Error(json.errors
+      .map((e) => (typeof e === 'string' ? e : (e && e.message) || JSON.stringify(e)))
+      .join('; '));
   }
   return json.data;
 }

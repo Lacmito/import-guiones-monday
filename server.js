@@ -9,6 +9,28 @@ const path = require('path');
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0';
 const MONDAY_API = 'https://api.monday.com/v2';
+const MONDAY_API_VERSION = process.env.MONDAY_API_VERSION || '2024-10';
+
+/**
+ * Monday contesta "Not authenticated" cuando el token está vencido o revocado. Ese texto llega tal
+ * cual a la pantalla y no dice qué hacer: el token no vence solo, se muere cuando lo regeneran,
+ * cuando cambia la contraseña de su dueño o cuando esa cuenta se desactiva. Acá se reemplaza por la
+ * instrucción concreta, conservando el formato que la pantalla ya sabe leer.
+ */
+function mensajeDeAuthAccionable(data, statusCode) {
+  const errores = Array.isArray(data && data.errors) ? data.errors : [];
+  const textos = errores.map((e) => (typeof e === 'string' ? e : (e && e.message) || ''));
+  const esDeAuth = statusCode === 401 || textos.some((t) => /not authenticated/i.test(t));
+  if (!esDeAuth) return null;
+  return {
+    errors: [{
+      message: 'Monday rechazó el token (vencido o revocado). Regeneralo en Monday '
+        + '(avatar → Developers → My Access Tokens) y actualizá MONDAY_API_TOKEN en Render. '
+        + 'Si el token era de una cuenta que se dio de baja, generá el nuevo desde una que vaya a quedar.',
+      extensions: { code: 'NOT_AUTHENTICATED' },
+    }],
+  };
+}
 const ADMIN_KEY = process.env.ADMIN_KEY || 'cdr-admin-2026';
 const LOG_FILE = path.join(__dirname, 'import-log.json');
 
@@ -186,6 +208,11 @@ function proxyMonday(req, res) {
         'Content-Type': 'application/json',
         Authorization: apiToken,
         'Content-Length': Buffer.byteLength(postData),
+        // Sin esta cabecera, Monday elige la versión por su cuenta y puede cambiarla sin aviso. Eso
+        // no sólo mueve el comportamiento de las consultas: también cambia el FORMATO de los errores
+        // (las versiones viejas devuelven texto plano donde las nuevas devuelven objetos), así que la
+        // pantalla puede terminar mostrando "undefined" en vez del motivo real. Se fija acá.
+        'API-Version': MONDAY_API_VERSION,
       },
     };
     const lib = url.protocol === 'https:' ? require('https') : require('http');
@@ -193,8 +220,16 @@ function proxyMonday(req, res) {
       let data = '';
       proxyRes.on('data', (chunk) => { data += chunk; });
       proxyRes.on('end', () => {
+        let salida = data;
+        try {
+          const parsed = JSON.parse(data);
+          const accionable = mensajeDeAuthAccionable(parsed, proxyRes.statusCode);
+          if (accionable) salida = JSON.stringify(accionable);
+        } catch (_) {
+          // Respuesta no-JSON: se pasa tal cual, mejor el cuerpo crudo que tragarse el error.
+        }
         res.writeHead(proxyRes.statusCode || 200, { 'Content-Type': 'application/json' });
-        res.end(data);
+        res.end(salida);
       });
     });
     proxyReq.on('error', (err) => {
